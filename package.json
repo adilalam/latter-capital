@@ -1,6 +1,6 @@
 {
   "name": "letter-cpital",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "make first capital or complete string capital",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,10 @@
     "letter",
     "capital",
     "First name capital",
-    "Each letter capital"
+    "Each letter capital",
+    "First Name",
+    "Second Name",
+    "Last Name"
   ],
   "author": "Md Adil Alam",
   "license": "ISC",
