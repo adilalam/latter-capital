@@ -10,13 +10,13 @@ Features include:
 The easiest way to use it to install it.
 
 ```
-npm i name-capital
+npm i letter-cpital
 ```
 
 Then use it in your app -
 
 ```js
-const { firstCapital, eachCapital } = require('name-capital');
+const { firstCapital, eachCapital } = require('letter-cpital');
 
     firstCapital("md adil alam"); // -> Md adil alam
     eachCapital("md adil alam"); // -> Md Adil Alam
