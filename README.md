@@ -18,13 +18,13 @@ Features include:
 The easiest way to use it to install it.
 
 ```
-npm i letter-cpital
+npm i letter-capital
 ```
 
 Then use it in your app :-
 
 ```js
-const { firstCapital, eachCapital, fName, fNCapital } = require('letter-cpital');
+const { firstCapital, eachCapital, fName, fNCapital } = require('letter-capital');
 
     firstCapital("md adil alam"); // -> Md adil alam
     eachCapital("md adil alam"); // -> Md Adil Alam
