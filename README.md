@@ -13,7 +13,7 @@ The easiest way to use it to install it.
 npm i name-capital
 ```
 
-Then use it in your app:
+Then use it in your app -
 
 ```js
 const { firstCapital, eachCapital } = require('name-capital');
