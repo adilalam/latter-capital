@@ -1,7 +1,7 @@
 {
-  "name": "letter-cpital",
-  "version": "1.0.2",
-  "description": "make first capital or complete string capital",
+  "name": "letter-capital",
+  "version": "1.0.3",
+  "description": "Make first capital or complete string capital, select fisrt anme and second name",
   "main": "index.js",
   "scripts": {
     "test": "jest"
