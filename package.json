@@ -1,0 +1,29 @@
+{
+  "name": "name-cpital",
+  "version": "1.0.0",
+  "description": "make first capital or complete string capital",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adilalam/latter-capital.git"
+  },
+  "keywords": [
+    "letter",
+    "capital",
+    "letter",
+    "capital"
+  ],
+  "author": "Md Adil Alam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adilalam/latter-capital/issues"
+  },
+  "homepage": "https://github.com/adilalam/latter-capital#readme",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}

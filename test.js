@@ -1,5 +1,12 @@
-const {firstCapital, eachCapital} = require('./index')
+const { describe, expect, test } = require('@jest/globals');
+const { firstCapital, eachCapital } = require('./index');
 
-console.log(firstCapital("md adil alam"));
+describe('Letter Capital', () => {
+    test('First letter capital', () => {
+        expect(firstCapital("md adil alam")).toMatch("Md adil alam");
+    });
 
-console.log(eachCapital("md adil alam"));
+    test('Each letter capital', () => {
+        expect(eachCapital("md adil alam")).toMatch("Md Adil Alam");
+    });
+});
