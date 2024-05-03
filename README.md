@@ -34,7 +34,7 @@ const { firstCapital, eachCapital, fName, fNCapital } = require('letter-capital'
 
 Props
 
-| Method                 | Use of method          |
-| ---------------------- | -------------          |
-| capitalizeFirstLetter  | Capital First letter   |
-| capitalizEachLetter    | Capital Each letter    |
+| Method                 | Use of method          |  Example        |
+| ---------------------- | ---------------------- | ----------------|
+| capitalizeFirstLetter  | Capital First letter   | Md adil alam    |
+| capitalizEachLetter    | Capital Each letter    | Md Adil Alam    |
