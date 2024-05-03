@@ -30,9 +30,25 @@ function lastNameCapital(string) {
     return capitalizeFirstLetter(string.trim().split(' ')[2]);
 }
 
+function toCapital(string) {
+    if(!string) {
+        return "Please pass string to do Capital."
+    }
+    return string.toUpperCase()
+}
+
+function toLower(string) {
+    if(!string) {
+        return "Please pass string to do Lower."
+    }
+    return string.toLowerCase()
+}
+
 module.exports = {
     firstCapital: capitalizeFirstLetter,
     eachCapital: capitalizEachLetter,
+    toCapital: toCapital,
+    toLower: toLower,
     fName: firstName,
     sName: secondName,
     lName: lastName,

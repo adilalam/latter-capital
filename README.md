@@ -31,3 +31,10 @@ const { firstCapital, eachCapital, fName, fNCapital } = require('letter-capital'
     fName("md adil alam"); // -> md
     fNCapital("md adil alam"); //-> Md
 ```
+
+Props
+
+| Method                 | Use of method          |
+| ---------------------- | -------------          |
+| capitalizeFirstLetter  | Capital First letter   |
+| capitalizEachLetter    | Capital Each letter    |
